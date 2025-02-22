@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 import { db } from "@/lib/prisma";
 
-import ConsumptionMethod from "../components/consumption-method-option";
+import ConsumptionMethod from "./components/consumption-method-option";
 
 interface slugProps {
   params: Promise<{ slug: string }>;
